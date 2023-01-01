@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, rgb(114, 235, 235), rgb(243, 78, 78));
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 140vh;
+}
+.storyTile{
+    /* border: 2px solid black; */
+    text-align: center;
+    max-width: 100%;
+    margin-top: 8vh;
+    font-size: 22px;
+}
+.storyHeading{
+    word-spacing: 16px;
+    letter-spacing: 10px;
+}
+.storyDes {
+    border: 1px solid black;
+    max-width: 995px;
+    margin: 10px auto;
+    /* height: 100vh; */
+    /* display: inline-block; */
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url(/img/bg.jpg);
+    /* color: white; */
+}
+#story{
+    text-align: center;
+    padding: 58px;
+    margin: 59px;
+    box-sizing: border-box;
+    background: white;
+    opacity: 0.9;
+    font-size: 19px;
+}
+.myFooter{
+    /* display: inline-block; */
+    /* border: 2px solid black; */
+    text-align: center;
+    /* justify-content: center; */
+}
+.myFooter p{
+    display: inline-block;
+
+}
+.myFooter p a{
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 1px 12px;
+
+}
